@@ -9,20 +9,48 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap");
     </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
     <header>
-      <div class="jumbotron">
-        <h1>Bandung</h1>
-        <p>
-          Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi
-          ibu kota provinsi tersebut.
-        </p>
+      <div>
+        <div class="jumbotron">
+          <h1 id="banjarmasin">Banjarmasin</h1>
+          <p>
+            Kota Banjarmasin yang dijuluki Kota Seribu Sungai ini memiliki
+            wilayah seluas 98,46 km² yang wilayahnya merupakan delta atau
+            kepulauan yang terdiri dari sekitar 25 buah pulau kecil (delta) yang
+            dipisahkan oleh sungai-sungai.
+          </p>
+        </div>
+        <img
+          src="assets/image/pasar terapung.jpg"
+          alt="pasar-terapung"
+          class="jumbotron-image"
+        />
       </div>
 
       <nav>
+        <div class="navbar">
+          <a href="#sejarah">Sejarah</a>
+          <a href="#geografis">Geografis</a>
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">
+              Wisata &#11206;
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="#festival">Festival Budaya Pasar Terapung</a>
+              <a href="#masjid">Masjid Sultan Suriansyah</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      
+
+      <!-- <nav>
         <ul>
           <li>
             <a href="#sejarah">Sejarah</a>
@@ -34,7 +62,7 @@
             <a href="#wisata">Wisata</a>
           </li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
 
     <main>
@@ -43,30 +71,25 @@
         <article id="sejarah" class="card">
           <h2>Sejarah</h2>
           <img
-            src="assets/image/history.jpg"
+            src="assets/image/menara-pandang.jpg"
             alt="sejarah"
             class="featured-image"
           />
           <p>
-            Kata Bandung berasal dari kata bendung atau bendungan karena
-            terbendungnya sungai Citarum oleh lava Gunung Tangkuban Parahu yang
-            lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua
-            di Bandung mengatakan bahwa nama Bandung diambil dari sebuah
-            kendaraan air yang terdiri dari dua perahu yang diikat berdampingan
-            yang disebut perahu bandung yang digunakan oleh Bupati Bandung, R.A.
-            Wiranatakusumah II, untuk melayari Ci Tarum dalam mencari tempat
-            kedudukan kabupaten yang baru untuk menggantikan ibu kota yang lama
-            di Dayeuhkolot.
-          </p>
-
-          <p>
-            Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat
-            Nga-Bandung-an Banda Indung, yang merupakan kalimat sakral dan luhur
-            karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya
-            menyaksikan atau bersaksi. Banda adalah segala sesuatu yang berada
-            di alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup maupun
-            benda mati. Sinonim dari banda adalah harta. Indung berarti Ibu atau
-            Bumi, disebut juga sebagai Ibu Pertiwi tempat Banda berada.
+            Kota Banjarmasin sebelum tahun 1526 adalah nama kampung yang
+            terletak di bagian utara muara Sungai Kuin, yaitu kawasan Kelurahan
+            Kuin Utara dan Alalak Selatan saat ini. Banjarmasin berasal dari
+            kata Banjarmasih, nama asli Banjarmasin sebelum dirobah nama oleh
+            Belanda dari kata Banjarmasih. Dalam kontrak di abad ke-17 (tahun
+            1663) dengan VOC masih kita dapatkan istilah Bandzermasch
+            (Banjarmasih). Banjarmasih adalah nama suatu kampung di muara sungai
+            Kuyin, sebuah anak sungai Barito, Muara Kuyin terletak antara pulau
+            Kembang dan pulau Alalak. Kampung Banjar Masih terbentuk oleh lima
+            aliran sungai kecil, yaitu Sungai Sipandai, Sungai Sigaling, Sungai
+            Keramat, Sungai Jagabaya dan Sungai Pangeran yang semuanya bertemu
+            membentuk sebuah danau. Kata Banjar berasal dari Bahasa Melayu yang
+            berarti kampung atau juga berarti berderet-deret sebagai letak
+            perumahan kampung berderet sepanjang tepian sungai.
           </p>
         </article>
 
@@ -78,67 +101,85 @@
             class="featured-image"
           />
           <p>
-            Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi
-            wilayahnya bagaikan sebuah mangkok raksasa,[9] secara geografis kota
-            ini terletak di tengah-tengah provinsi Jawa Barat, serta berada pada
-            ketinggian ±768 m di atas permukaan laut, dengan titik tertinggi di
-            berada di sebelah utara dengan ketinggian 1.050 meter di atas
-            permukaan laut dan sebelah selatan merupakan kawasan rendah dengan
-            ketinggian 675 meter di atas permukaan laut.
+            Kota Banjarmasin terletak pada 3°15' sampai 3°22' Lintang Selatan
+            dan 114°32' Bujur Timur, ketinggian tanah asli berada pada 0,16 m di
+            bawah permukaan laut dan hampir seluruh wilayah digenangi air pada
+            saat pasang. Kota Banjarmasin berlokasi daerah kuala sungai
+            Martapura yang bermuara pada sisi timur Sungai Barito. Letak Kota
+            Banjarmasin nyaris di tengah-tengah Indonesia.
           </p>
 
           <p>
-            Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan
-            Sungai Citarum beserta anak-anak sungainya yang pada umumnya
-            mengalir ke arah selatan dan bertemu di Sungai Citarum. Dengan
-            kondisi yang demikian, Bandung selatan sangat rentan terhadap
-            masalah banjir terutama pada musim hujan.
+            Kota ini terletak di tepian timur sungai Barito dan dibelah oleh
+            Sungai Martapura yang berhulu di Pegunungan Meratus. Kota
+            Banjarmasin dipengaruhi oleh pasang surut air laut Jawa, sehingga
+            berpengaruh kepada drainase kota dan memberikan ciri khas tersendiri
+            terhadap kehidupan masyarakat, terutama pemanfaatan sungai sebagai
+            salah satu prasarana transportasi air, pariwisata, perikanan dan
+            perdagangan.
+          </p>
+
+          <p>
+            Menurut data statistik 2001 dari seluruh luas wilayah Kota
+            Banjarmasin yang kurang lebih 98,46 km² ini dapat dipersentasikan
+            bahwa peruntukan tanah saat sekarang adalah lahan tanah pertanian
+            3.111,9 ha, perindustrian 278,6 ha, jasa 443,4 ha, permukiman adalah
+            3.029,3 ha dan lahan perusahaan seluas 336,8 ha. Perubahan dan
+            perkembangan wilayah terus terjadi seiring dengan pertambahan
+            kepadatan penduduk dan kemajuan tingkat pendidikan serta penguasaan
+            ilmu pengetahuan teknologi.
           </p>
         </article>
 
         <article id="wisata" class="card">
           <h2>Wisata</h2>
           <p>
-            Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi
-            tujuan utama dalam menikmati liburan akhir pekan terutama dari
-            masyarakat yang berasal dari Jakarta sekitarnya. Selain menjadi kota
-            wisata belanja, kota Bandung juga dikenal dengan sejumlah besar
-            bangunan lama berarsitektur peninggalan Belanda.
+            Kota Banjarmasin memiliki berbagai objek wisata, baik wisata alam,
+            wisata sejarah, wisata kuliner, maupun wisata pendidikan.
           </p>
 
-          <section>
-            <h3>Farm House Lembang</h3>
+          <section id="festival">
+            <h3>Festival Budaya Pasar Terapung</h3>
             <img
-              src="assets/image/farm-house.jpg"
-              alt="farm house"
+              src="assets/image/pasar terapung.jpg"
+              alt="pasar terapung"
               class="featured-image"
             />
             <p>
-              Berada di jalur utama Bandung-Lembang, Farm House menjadi objek
-              wisata yang tidak pernah sepi pengunjung. Selain karena letaknya
-              strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa.
-              Semua itu diterapkan dalam bentuk spot swafoto Instagramable.
+              Festival Budaya Pasar Terapung adalah sebuah festival tahunan yang
+              berlangsung di Kota Banjarmasin, Provinsi Kalimantan Selatan.
+              Festival ini dilaksanakan oleh Dinas Pariwisata Provinsi
+              Kalimantan Selatan dan menampilkan budaya sungai yang ada di
+              Kalimantan Selatan.[1] Selain menampilkan budaya sungai, festival
+              ini juga menggelar berbagai lomba, seperti lomba acil Pasar
+              Terapung, lomba foto, balap jukung, lomba kampung Banjar, ada pula
+              hiburan rakyat.
             </p>
           </section>
 
-          <section>
-            <h3>Observatorium Bosscha</h3>
+          <section id="masjid">
+            <h3>Masjid Sultan Suriansyah</h3>
             <img
-              src="assets/image/bosscha.jpg"
+              src="assets/image/masjid sultan suryansyah.jpg"
               alt="bosscha"
               class="featured-image"
             />
             <p>
-              Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss,
-              Schmidt Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan
-              Teleskop Surya. Refraktor Ganda Zeiss adalah jenis teleskop
-              terbesar untuk meneropong bintang. Benda ini diletakkan pada atap
-              kubah sehingga saat teropong digunakan, atap tersebut harus
-              dibuka. Observatorium Bosscha boleh dikunjungi oleh siapapun,
-              tanpa tiket. Namun, bagi yang ingin menggunakan teleskop Zeiss,
-              wajib mendaftarkan diri. Untuk instansi atau lembaga pendidikan,
-              diberikan jadwal hari Selasa sampai Jumat. Sementara itu,
-              kunjungan individu dibuka setiap hari Sabtu.
+              Masjid Sultan Suriansyah atau Masjid Kuin adalah sebuah masjid
+              bersejarah di Kota Banjarmasin yang merupakan masjid tertua di
+              Kalimantan Selatan. Masjid ini dibangun pada masa pemerintahan
+              Sultan Suriansyah (1526-1550), Raja Banjar pertama yang memeluk
+              agama Islam. Masjid Kuin merupakan salah satu dari tiga masjid
+              tertua yang ada di kota Banjarmasin pada masa Mufti Jamaluddin
+              (Mufti Banjarmasin), masjid yang lainnya adalah Masjid Besar
+              (cikal bakal Masjid Jami Banjarmasin) dan Masjid Basirih.
+            </p>
+            <p>
+              Masjid ini terletak di Jalan Kuin Utara, Kelurahan Kuin Utara,
+              kawasan yang dikenal sebagai Banjar Lama merupakan situs ibu kota
+              Kesultanan Banjar yang pertama kali. Masjid ini letaknya
+              berdekatan dengan komplek makam Sultan Suriansyah dan di tepian
+              kiri sungai Kuin.
             </p>
           </section>
         </article>
@@ -148,10 +189,10 @@
       <aside>
         <article class="profile card">
           <header>
-            <h2>Kota Bandung</h2>
-            <p>Kota Kembang Paris van Java</p>
+            <h2>Kota Banjarmasin</h2>
+            <p>Kota Seribu Sungai</p>
             <figure>
-              <img src="assets/image/bandung-badge.png" alt="sejarah" />
+              <img src="assets/image/Banjarmasin_Logo.png" alt="sejarah" />
               <figcaption>Lambang</figcaption>
             </figure>
           </header>
@@ -166,19 +207,19 @@
               </tr>
               <tr>
                 <th>Hari jadi</th>
-                <td>25 September 1810</td>
+                <td>24 September 1526</td>
               </tr>
               <tr>
                 <th>Luas Total</th>
-                <td>167.67 km<sup>2</sup></td>
+                <td>98,46 km<sup>2</sup></td>
               </tr>
               <tr>
                 <th>Bahasa Daerah</th>
-                <td>Sunda</td>
+                <td>Banjar</td>
               </tr>
               <tr>
                 <th>Kode Telepon</th>
-                <td>+62 22</td>
+                <td>+62 511</td>
               </tr>
             </table>
           </section>
@@ -187,7 +228,22 @@
     </main>
 
     <footer>
-      <p>Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>
+      <p>Submisi Belajar Dasar Pemrograman Web &#169; 2023, Dicoding Academy</p>
     </footer>
+
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      window.onclick = function (e) {
+        if (!e.target.matches(".dropbtn")) {
+          var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains("show")) {
+            myDropdown.classList.remove("show");
+          }
+        }
+      };
+    </script>
   </body>
 </html>
